@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Regression Test Suite</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Regression Test Suite</h1>
+<p>
+  Test duration: 144.797s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.AmazonWebProductSearch</td>
+      </tr>
+
+<tr>
+  <td class="method">
+                  testAmazonHomePage
+      </td>
+  <td class="duration">
+    10.876s
+  </td>
+  <td class="result">
+
+          <i>Method arguments: </i><span class="arguments">"story books"</span><br />
+
+            <div class="testOutput">
+                        Application launched<br />
+                                Search page listed<br />
+                                &lt;a href=&apos;/Users/swarnv01/Documents/eclipse-workspace/mobileAutomation/test-output/failure_screenshots/testAmazonHomePage_15_05_2018_01_01_33.png&apos;&gt; &lt;img src=&apos;/Users/swarnv01/Documents/eclipse-workspace/mobileAutomation/test-output/failure_screenshots/testAmazonHomePage_15_05_2018_01_01_33.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
+                  </div>
+
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [19] but found [21]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:652)<br />
+              org.testng.Assert.assertEquals(Assert.java:662)<br />
+              tests.AmazonWebProductSearch.testAmazonHomePage(AmazonWebProductSearch.java:55)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:571)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1028)<br />
+              org.testng.TestNG.run(TestNG.java:996)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.FlipkartLoginAndSearchTest</td>
+      </tr>
+
+<tr>
+  <td class="method">
+                  testSearchItems
+      </td>
+  <td class="duration">
+    44.706s
+  </td>
+  <td class="result">
+
+
+            <div class="testOutput">
+                        &lt;a href=&apos;/Users/swarnv01/Documents/eclipse-workspace/mobileAutomation/test-output/failure_screenshots/testSearchItems_15_05_2018_01_03_00.png&apos;&gt; &lt;img src=&apos;/Users/swarnv01/Documents/eclipse-workspace/mobileAutomation/test-output/failure_screenshots/testSearchItems_15_05_2018_01_03_00.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
+                  </div>
+
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: com.flipkart.android:id/search_autoCompleteTextView (tried for 40 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)<br />
+              test.utilities.CommonMethods.getObject(CommonMethods.java:57)<br />
+              test.utilities.CommonMethods.TypeInTextField(CommonMethods.java:25)<br />
+              test.pages.FlipkartSearchPage.typeSearchItem(FlipkartSearchPage.java:30)<br />
+              tests.FlipkartLoginAndSearchTest.testSearchItems(FlipkartLoginAndSearchTest.java:37)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:571)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1028)<br />
+              org.testng.TestNG.run(TestNG.java:996)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: com.flipkart.android:id/search_autoCompleteTextView<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;<br/>
+System info: host: &apos;mc-s099918.local&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-2">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Optional.java:290)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)<br />
+                      test.utilities.CommonMethods.getObject(CommonMethods.java:57)<br />
+                      test.utilities.CommonMethods.TypeInTextField(CommonMethods.java:25)<br />
+                      test.pages.FlipkartSearchPage.typeSearchItem(FlipkartSearchPage.java:30)<br />
+                      tests.FlipkartLoginAndSearchTest.testSearchItems(FlipkartLoginAndSearchTest.java:37)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:571)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+                      org.testng.TestRunner.run(TestRunner.java:505)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1116)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1028)<br />
+                      org.testng.TestNG.run(TestNG.java:996)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.AmazonWebProductSearch</td>
+      </tr>
+
+<tr>
+  <td class="method">
+                  testAmazonHomePage
+      </td>
+  <td class="duration">
+    11.484s
+  </td>
+  <td class="result">
+
+          <i>Method arguments: </i><span class="arguments">"mobile phones"</span><br />
+
+            <div class="testOutput">
+                        Application launched<br />
+                                Search page listed<br />
+                                Total result count : 21<br />
+                  </div>
+
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testAmazonHomePage
+      </td>
+  <td class="duration">
+    13.275s
+  </td>
+  <td class="result">
+
+          <i>Method arguments: </i><span class="arguments">"smart watches"</span><br />
+
+            <div class="testOutput">
+                        Application launched<br />
+                                Search page listed<br />
+                                Total result count : 21<br />
+                  </div>
+
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.FlipkartLoginAndSearchTest</td>
+      </tr>
+
+<tr>
+  <td class="method">
+                  testHomePage
+      </td>
+  <td class="duration">
+    21.687s
+  </td>
+  <td class="result">
+
+          <i>Method arguments: </i><span class="arguments">""</span><br />
+
+            <div class="testOutput">
+                        Opened flipkar home page<br />
+                                Login page is opened<br />
+                                Successfully logged in flipkar<br />
+                  </div>
+
+
+      </td>
+</tr>
+      </table>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+[
+  {
+    "android": {
+      "platformName": "android",
+      "platformVersion": "6.0",
+      "app": "/Users/swarnv01/Downloads/ContactManager.apk",
+      "appPackage":"com.example.android.contactmanager",
+      "appActivity": "com.example.android.contactmanager.ContactManager",
+      "deviceName": "Nexus_6_API_23",
+      "noSign":true
+    }
+  }
+ ]
